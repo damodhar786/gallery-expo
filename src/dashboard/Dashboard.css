@@ -1,0 +1,28 @@
+.navbar{
+    border: 1px solid black;
+
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+}
+
+.navbar_ul{
+    border: 1px solid black;
+
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar_li{
+    border: 1px solid black;
+
+    margin: 2px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar_li:hover{
+    background-color: aquamarine;
+}
