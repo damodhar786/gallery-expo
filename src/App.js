@@ -1,16 +1,16 @@
 import './App.css';
 import Dasboard from './dashboard/Dasboard';
+import Footer from './footer/Footer';
 import Header from './header/Header';
-// import Main from './components/Main';
-// import Footer from './components/Footer';
+import Main from './main/Main';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Dasboard />
-      {/* <Main /> */}
-      {/* <Footer /> */}
+      <Main />
+      <Footer />
     </div>
   );
 }
