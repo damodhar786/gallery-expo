@@ -10,7 +10,7 @@ function Main() {
       
         <section className='main_navbar'>
           <ul className='main_navbar_ul'>
-            <li className='main_navbar_li'>Back to gallery</li>
+            <li className='main_navbar_li'>Back to gallery |</li>
             <li className='main_navbar_li'>Next image</li>
             <li className='main_navbar_li'>Last image</li>
           </ul>
