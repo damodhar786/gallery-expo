@@ -1,16 +1,24 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-// import Dasboard from './dashboard/Dasboard';
-// import Footer from './footer/Footer';
-// import Header from './header/Header';
+
 import Main from './main/Main';
+import Main1 from './main/Main1';
+import Main2 from './main/Main2';
+import Main3 from './main/Main3';
 
 function App() {
   return (
     <div className="App">
-      {/* <Header />
-      <Dasboard /> */}
-      <Main />
-      {/* <Footer /> */}
+
+      <BrowserRouter>
+        <Routes>
+
+          <Route path='/' element={<Main />} />       
+          <Route path='/nextimage1' element={<Main1 />} />       
+          <Route path='/nextimage2' element={<Main2 />} />       
+          <Route path='/nextimage3' element={<Main3 />} />       
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,14 +1,12 @@
 import './Main.css';
-import image1 from '../img/image1.jpg';
+import image3 from '../img/image3.jpg';
 import { useNavigate } from 'react-router-dom';
 
-function Main() {
-
-  const navigate = useNavigate();
-  const nextImage = () =>{
-      navigate("/nextimage1")
-  }
-
+function Main1() {
+    const navigate = useNavigate();
+    const nextImage = () =>{
+        navigate("/nextimage3")
+    }
   return (
     <div>
       <main className='main'>
@@ -23,11 +21,11 @@ function Main() {
           </ul>
         </section>
         <section className='main_image'>
-          <img src={image1} alt="bhumika_chawla1" />
+          <img src={image3} alt="bhumika_chawla2" />
         </section>
       </main>
     </div>
   )
 }
 
-export default Main
+export default Main1;
